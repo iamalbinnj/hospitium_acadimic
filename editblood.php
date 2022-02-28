@@ -75,7 +75,7 @@ if(isset($_POST['edit']))
                 
                
                   <div class="form-submit text-center">
-                    <button type="submit" name="edit" class="btn btn-style btn-primary" >Edit</button>
+                    <button type="submit" name="edit" class="btn btn-style btn-primary" >Save</button>
                   </div><br>
 
 

@@ -81,7 +81,7 @@ if(isset($_POST['login']))
                   <?php
             if(isset($_SESSION['msg']))
             {
-                echo "<div class='alert alert_danger' style='background-color:skyblue';><front color='black'>".$_SESSION['msg']."</font></div>";
+                echo "<div class='danger' ;><font color='red'>".$_SESSION['msg']."</font></div>";
                 unset($_SESSION['msg']);
             }
             ?>

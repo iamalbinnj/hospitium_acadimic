@@ -54,7 +54,7 @@ $s="SELECT * FROM blood where bl_id=$l_id";
             </a>
             <div class="feature-info mt-4"><a href="#url">
               <!-- <img src="images/<?php echo $image; ?>"> -->
-                <h3 class="feature-titel mb-2">Blood Group<?php echo $group;?></h3>
+                <h3 class="feature-titel mb-2">Blood Group <?php echo $group;?></h3>
                 <p class="feature-text">Pouch : <?php echo $count ;?></p>
                
                

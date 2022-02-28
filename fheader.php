@@ -283,8 +283,8 @@ Author URL: http://w3layouts.com
         <div class="container">
             <h2 class="title">Choose Confidently</h2>
             <ul class="breadcrumbs-custom-path mt-3 text-center">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Contact Us </li>
+                <li><a href="index.php">Home</a></li>
+                <!-- <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Contact Us </li> -->
             </ul>
         </div>
     </div>
