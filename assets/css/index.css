@@ -1,0 +1,49 @@
+
+/* Password eye */
+        #toggle_pwd
+        {
+            position: absolute;
+            cursor: pointer;
+            margin-left: 600px;
+            right: 470px;
+            bottom: 25px;
+            /* top: 200px; */
+        }
+
+        /* fileupload */
+        p::before{
+            content: url("https://res.cloudinary.com/morganjay/image/upload/v1611315932/uploadIcon_zkf4fz.svg");
+            margin-right: 18px;
+            margin-top: 10px;
+          }
+          
+          p{
+            display: flex;
+          }
+          
+          span{
+            margin-left: 46px
+          }
+          
+          input[type="file"]{
+             position:absolute;
+              top:0;
+              left:0;
+             right:0;
+              bottom:0;
+              width:100%;
+             -webkit-tap-highlight-color:transparent;
+             opacity:0;
+            z-index: 1;
+            cursor: pointer;
+          }
+          
+          div:active{
+             margin-top:82px;
+             border-bottom-width:2px;
+            box-shadow: 0px 5px 13px #ea4539;
+              -webkit-box-shadow: 0px 5px 13px #ea4539;
+              -moz-box-shadow: 0px 5px 13px #ea4539;
+              -o-box-shadow: 0px 5px 13px #ea4539;
+              -ms-box-shadow: 0px 5px 13px #ea4539;
+          }

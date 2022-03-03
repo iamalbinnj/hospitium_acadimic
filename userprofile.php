@@ -45,5 +45,5 @@ $s="SELECT * FROM  user WHERE ul_id=$l_id";
     </div>
   </section>
   <?php
-include 'footer.php';
+include 'footer1.php';
 ?>

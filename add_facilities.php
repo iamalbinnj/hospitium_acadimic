@@ -43,7 +43,7 @@ if(isset($_POST['edit']))
  
 
   $qu="UPDATE facilities SET af_ventilator='$ventilator',af_icu='$icu',af_ambulance='$ambulance',af_oxygen='$oxygen',af_mri='$mri',af_dia='$dia' where afl_id=$l_id";
-  //var_dump($qu);
+  var_dump($qu);
 
  $result1=$con->query($qu);
   if($result1)

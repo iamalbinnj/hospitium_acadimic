@@ -9,6 +9,19 @@ include 'fheader.php';
 }
 
   ?>
+
+<section class="w3l-about-breadcrumb">
+    <div class="breadcrumb-bg breadcrumb-bg-about py-5">
+        <div class="container">
+            <h2 class="title">Doctor Profile</h2>
+            <ul class="breadcrumbs-custom-path mt-3 text-center">
+                <li><a href="index.php">Home</a></li>
+                <!-- <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Contact Us </li> -->
+            </ul>
+        </div>
+    </div>
+  </section>
+
     <!--/w3l-services2-->
   <div class="w3l-services2 py-5">
     <div class="container py-xl-5 py-3">
@@ -57,8 +70,8 @@ $s="SELECT * FROM doctor where dfl_id=$l_id";
 
             </a>
             <div class="feature-info mt-4"><a href="#url">
-              <img src="images/<?php echo $image; ?>">
-                <h3 class="feature-titel mb-2"><?php echo $name;?></h3>
+              <center><img src="images/<?php echo $image; ?>">
+                <h3 class="feature-titel mb-2"><?php echo $name;?></h3></center>
                 <p class="feature-text">Speciality : <?php echo $spec ;?></p>
                 <p class="feature-text">Educational Qualification : <?php echo $edu;?></p>
                 <p class="feature-text">Phone NO : <?php echo $phone;?></p>
@@ -90,5 +103,5 @@ $s="SELECT * FROM doctor where dfl_id=$l_id";
   </div>
   <!--//w3l-services2-->
   <?php
-include 'footer.php';
+include 'footer1.php';
 ?>

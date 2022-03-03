@@ -79,5 +79,5 @@ $s="SELECT * FROM blood where bl_id=$bl_id";
     </div>
   </div>
   <?php
-include 'footer.php';
+include 'footer1.php';
 ?>

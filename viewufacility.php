@@ -56,5 +56,5 @@ var_dump($s);
     </div>
   </section>
   <?php
-include 'footer.php';
+include 'footer1.php';
 ?>

@@ -101,7 +101,7 @@ if(isset($_POST['edit']))
       </div>
   </section>
 <?php
-include 'footer.php';
+include 'footer1.php';
 ?>
 
 

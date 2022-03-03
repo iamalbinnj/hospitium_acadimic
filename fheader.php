@@ -13,6 +13,7 @@ Author URL: http://w3layouts.com
   <link href="//fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
+  <link rel="stylesheet" href="assets/css/index.css">
 </head>
 
 <body>
@@ -69,7 +70,7 @@ Author URL: http://w3layouts.com
       <div class="header-2hny py-3">
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-dark stroke">
-            <h1><a class="navbar-brand mr-xl-5" href="index.html">
+            <h1><a class="navbar-brand mr-xl-5" href="index.php">
                 <span class="fa fa-heartbeat mr-1"></span>Hospitium
               </a></h1>
             <!-- if logo is image enable this   
@@ -278,15 +279,5 @@ Author URL: http://w3layouts.com
     <!--/header-->
   </section>
   <!--/w3l-breadcrumb-->
-  <section class="w3l-about-breadcrumb">
-    <div class="breadcrumb-bg breadcrumb-bg-about py-5">
-        <div class="container">
-            <h2 class="title">Choose Confidently</h2>
-            <ul class="breadcrumbs-custom-path mt-3 text-center">
-                <li><a href="index.php">Home</a></li>
-                <!-- <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Contact Us </li> -->
-            </ul>
-        </div>
-    </div>
-  </section>
+  
   <!--//w3l-breadcrumb-->

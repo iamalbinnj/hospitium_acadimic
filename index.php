@@ -23,7 +23,8 @@ Author URL: http://w3layouts.com
 
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
-  <script src="pwa.js"></script>
+  <link rel="stylesheet" href="assets/css/index.css">
+
 </head>
 
 <body>
@@ -537,7 +538,7 @@ Author URL: http://w3layouts.com
               <a href="#">
                 <h4 class="title">Health Care</h4>
               </a>
-              <a href="#" class="text-right"><span class="fa fa-arrow-right"></span></a>
+              <!-- <a href="#" class="text-right"><span class="fa fa-arrow-right"></span></a> -->
             </div>
           </div>
         </div>
@@ -548,7 +549,7 @@ Author URL: http://w3layouts.com
               <a href="#">
                 <h4 class="title">Gyneological Clinic</h4>
               </a>
-              <a href="#" class="text-right"><span class="fa fa-arrow-right"></span></a>
+              <!-- <a href="#" class="text-right"><span class="fa fa-arrow-right"></span></a> -->
             </div>
           </div>
         </div>
@@ -559,7 +560,7 @@ Author URL: http://w3layouts.com
               <a href="#">
                 <h4 class="title">Rehabilitation Center</h4>
               </a>
-              <a href="#" class="text-right"><span class="fa fa-arrow-right"></span></a>
+              <!-- <a href="#" class="text-right"><span class="fa fa-arrow-right"></span></a> -->
             </div>
           </div>
         </div>
@@ -570,7 +571,7 @@ Author URL: http://w3layouts.com
               <a href="#">
                 <h4 class="title">Precise Diagnosis</h4>
               </a>
-              <a href="#" class="text-right"><span class="fa fa-arrow-right"></span></a>
+              <!-- <a href="#" class="text-right"><span class="fa fa-arrow-right"></span></a> -->
             </div>
           </div>
         </div>
@@ -581,7 +582,7 @@ Author URL: http://w3layouts.com
               <a href="#">
                 <h4 class="title">Cardiac Clinic</h4>
               </a>
-              <a href="#" class="text-right"><span class="fa fa-arrow-right"></span></a>
+              <!-- <a href="#" class="text-right"><span class="fa fa-arrow-right"></span></a> -->
             </div>
           </div>
         </div>
@@ -592,7 +593,7 @@ Author URL: http://w3layouts.com
               <a href="#">
                 <h4 class="title">Dental Surgery</h4>
               </a>
-              <a href="#" class="text-right"><span class="fa fa-arrow-right"></span></a>
+              <!-- <a href="#" class="text-right"><span class="fa fa-arrow-right"></span></a> -->
             </div>
           </div>
         </div>
@@ -627,6 +628,7 @@ Author URL: http://w3layouts.com
   </section> -->
   <!--//w3l-subscribe-->
   <!-- footer -->
+  <script src="pwa.js"></script>
 
   <?php
   include 'footer1.php';

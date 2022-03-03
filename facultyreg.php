@@ -50,13 +50,13 @@ if(isset($_POST['submit']))
     $image=$image.basename($_FILES['image']['name']);
     if(move_uploaded_file( $_FILES['image']['tmp_name'],$image))
     {
-        echo "file upload";
+        // echo "file upload";
         
     }
     //
     else
     {
-        echo "error to upload file";
+        // echo "error to upload file";
     }
      
     $_SESSION['msg']="Successfully Register";
@@ -134,7 +134,7 @@ if(isset($_POST['submit']))
                   <?php
             if(isset($_SESSION['msg']))
             {
-                echo "<div class='alert alert_danger' style='background-color:skyblue';><front color='black'>".$_SESSION['msg']."</font></div>";
+                echo "<div class='alert alert_danger' style='btn-primary';><front color='black'>".$_SESSION['msg']."</font></div>";
                 unset($_SESSION['msg']);
             }
             ?>
@@ -147,5 +147,5 @@ if(isset($_POST['submit']))
       </div>
   </section>
 <?php
-include 'footer.php';
+include 'footer1.php';
 ?>

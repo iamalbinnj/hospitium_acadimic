@@ -29,7 +29,7 @@ $search1 = $_POST['search1'];
         <form method="post">
           <input type="search" name="search" placeholder="Hospital Name">
           <input type="search" name="search1" placeholder="Near Place">
-          <input type="submit" name="submit" class="btn search-search">
+          <input type="submit" name="submit" class="btn btn-primary">
         </form>
       </div>
       <div class="row features mt-4">
@@ -115,5 +115,5 @@ $s="SELECT * FROM faculty WHERE f_hospital LIKE '%$search%' and f_nearplace LIKE
   </div>
   <!--//w3l-services2-->
   <?php
-include 'footer.php';
+include 'footer1.php';
 ?>

@@ -87,5 +87,5 @@ $s="SELECT * FROM login INNER JOIN user on login.l_id=user.ul_id ";
   </div>
   <!--//w3l-services2-->
   <?php
-include 'footer.php';
+include 'footer1.php';
 ?>

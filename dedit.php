@@ -145,7 +145,7 @@ if(isset($_POST['submit']))
       </div>
   </section>
 <?php
-include 'footer.php';
+include 'footer1.php';
 ?>
 
 

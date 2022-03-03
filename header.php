@@ -11,11 +11,25 @@ Author URL: http://w3layouts.com
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Hospitium</title>
   <link href="//fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
+  <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro&display=swap"
+        />
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
+  <link rel="stylesheet" href="assets/css/index.css">
+
 </head>
 
 <body>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet" type="text/css" />
+
+
   <!--header-->
   <section class="w3l-header">
     <header id="site-header" class="">
@@ -69,7 +83,7 @@ Author URL: http://w3layouts.com
       <div class="header-2hny py-3">
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-dark stroke">
-            <h1><a class="navbar-brand mr-xl-5" href="index.html">
+            <h1><a class="navbar-brand mr-xl-5" href="index.php">
                 <span class="fa fa-heartbeat mr-1"></span>Hospitium
               </a></h1>
             <!-- if logo is image enable this   
@@ -87,13 +101,13 @@ Author URL: http://w3layouts.com
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav mx-lg-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
+                  <a class="nav-link" href="about.php">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="services.html">Departments</a>
+                  <a class="nav-link" href="services.php">Departments</a>
                 </li>
    <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
@@ -102,7 +116,7 @@ Author URL: http://w3layouts.com
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
 
-                    <a class="dropdown-item" href="userreg.php">Patient Register</a>
+                    <a class="dropdown-item" href="userreg.php">User Register</a>
                     <a class="dropdown-item" href="facultyreg.php">Faculty Register</a>
                     <!-- <a class="dropdown-item" href="landing-single.html">Landing Single</a>
                     <a class="dropdown-item" href="error.html">404</a> -->
@@ -110,7 +124,7 @@ Author URL: http://w3layouts.com
                 </li>
 
                 <li class="nav-item ">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link" href="contact.php">Contact</a>
                 </li>
               </ul>
               <ul class="navbar-nav search-right mt-lg-0 mt-2">

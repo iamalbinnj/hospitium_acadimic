@@ -13,8 +13,8 @@ include 'aheader.php';
   <div class="w3l-services2 py-5">
     <div class="container py-xl-5 py-3">
       <div class="title-content">
-        <h6 class="sub-titlehny">Some More Features</h6>
-        <h3 class="hny-title">What We Provide</h3>
+        <h6 class="sub-titlehny"></h6>
+        <h3 class="hny-title">Faculty</h3>
         <div class="separatorhny"></div>
       </div>
       <div class="row features mt-4">
@@ -72,6 +72,7 @@ $s="SELECT * FROM login INNER JOIN faculty on login.l_id=faculty.fl_id ";
                 <p class="feature-text">Gender : <?php echo $gender;?></p>
                 <p class="feature-text">Address : <?php echo $address;?></p>
                 <p class="feature-text">Near : <?php echo $near;?></p>
+                <p class="feature-text">Certificates : <?php echo $image;?></p>
 
                             
 
@@ -114,5 +115,5 @@ $s="SELECT * FROM login INNER JOIN faculty on login.l_id=faculty.fl_id ";
   </div>
   <!--//w3l-services2-->
   <?php
-include 'footer.php';
+include 'footer1.php';
 ?>

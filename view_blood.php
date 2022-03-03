@@ -15,6 +15,19 @@ $s="SELECT * FROM blood WHERE bl_id=$l_id";
     }
     $result=mysqli_fetch_array($stmt);
   ?>
+
+<section class="w3l-about-breadcrumb">
+    <div class="breadcrumb-bg breadcrumb-bg-about py-5">
+        <div class="container">
+            <h2 class="title">Blood Bank</h2>
+            <ul class="breadcrumbs-custom-path mt-3 text-center">
+                <li><a href="index.php">Home</a></li>
+                <!-- <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Contact Us </li> -->
+            </ul>
+        </div>
+    </div>
+  </section>
+
 <div class="w3l-services2 py-5">
     <div class="container py-xl-5 py-3">
       <div class="title-content">
@@ -79,5 +92,5 @@ $s="SELECT * FROM blood where bl_id=$l_id";
     </div>
   </div>
   <?php
-include 'footer.php';
+include 'footer1.php';
 ?>

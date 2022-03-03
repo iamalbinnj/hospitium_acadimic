@@ -13,7 +13,6 @@ include 'aheader.php';
   //var_dump($l_id);
 }
 $s="SELECT * FROM  facilities WHERE afl_id=$afl_id";
-var_dump($s);
     if(!$stmt=mysqli_query($con,$s))
     {
       die("prepare statement error1");
@@ -38,8 +37,8 @@ var_dump($s);
 
 
           <div class="buttons mt-5">
-         <!--    <a href="editfacilities.php?l_id=<?php echo $l_id;?>" class="btn btn-style btn-primary">Edit</a> -->
-            <!-- <a href="fdelete.php?fl_id=<?php echo $l_id;?>" class="btn btn-style btn-primary">Delete</a> -->
+            <a href="editfacilities.php?l_id=<?php echo $l_id;?>" class="btn btn-style btn-primary">Edit</a>
+            <a href="fdelete.php?fl_id=<?php echo $l_id;?>" class="btn btn-style btn-primary">Delete</a>
 
 
           </div>
@@ -55,5 +54,5 @@ var_dump($s);
     </div>
   </section>
   <?php
-include 'footer.php';
+include 'footer1.php';
 ?>

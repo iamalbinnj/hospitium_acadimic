@@ -22,10 +22,11 @@ if(isset($_POST['edit']))
   $ambulance=$_POST['ambulance'];
   $oxygen=$_POST['oxygen'];
   $mri=$_POST['mri'];
+  $dia=$_POST['dia'];
 
  
 
-  $qu="UPDATE facilities SET af_ventilator='$ventilator',af_icu='$icu',af_ambulance='$ambulance',af_oxygen='$oxygen',af_mri='$mri' where afl_id=$l_id";
+  $qu="UPDATE facilities SET af_ventilator='$ventilator',af_icu='$icu',af_ambulance='$ambulance',af_oxygen='$oxygen',af_mri='$mri',af_dia='$dia' where afl_id=$l_id";
   //var_dump($qu);
 
  $result1=$con->query($qu);
@@ -57,24 +58,34 @@ if(isset($_POST['edit']))
             <center><div class="form-inner-cont">
               <form action="" method="post" class="" style="width: 600px; " enctype="multipart/form-data">
                 <div class="form-top-left">
-
-                  <input type="number" name="ventilator" id="w3lName" placeholder=" Ventilators" value="<?php echo $result['af_ventilator'];?>" required="">
+                <label class="w3lName">Ventilators
+                  <input type="number" name="ventilator" id="w3lName" placeholder=" Ventilators" value="<?php echo $result['af_ventilator'];?>" required=""></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  
+                  <label class="w3lName">I.C.U
                   <input type="number" name="icu" id="w3lSender" placeholder="I.C.U Rooms"
-                    required="" value="<?php echo $result['af_icu'];?>">
-                  <input type="number" name="ambulance" id="w3lpassword" placeholder="Ambulance" value="<?php echo $result['af_ambulance'];?>" >
+                    required="" value="<?php echo $result['af_icu'];?>"></label>
+
+                    <label class="w3lName">Ambulance
+                  <input type="number" name="ambulance" id="w3lpassword" placeholder="Ambulance" value="<?php echo $result['af_ambulance'];?>" ></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   
 
-                
+                  <label class="w3lName">Oxygen
                   <input type="number" name="oxygen" id="w3lName" placeholder="Oxygen Cylinders"
-                    required="" value="<?php echo $result['af_oxygen'];?>">
+                    required="" value="<?php echo $result['af_oxygen'];?>"></label>
+                    <label class="w3lName">MRI
                     <input type="text" name="mri" id="w3lName" placeholder="MRI Scan"
-                    required="" value="<?php echo $result['af_mri'];?>">
+                    required="" value="<?php echo $result['af_mri'];?>"></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label class="w3lName">Dialysis
+                    <input type="text" name="dia" id="w3lName" placeholder="Dialysis"
+                    required="" value="<?php echo $result['af_dia'];?>"></label>
+
+
 
                 </div>
                 
                
                   <div class="form-submit text-center">
-                    <button type="submit" name="edit" class="btn btn-style btn-primary" >Edit</button>
+                    <button type="submit" name="edit" class="btn btn-style btn-primary" >Update</button>
                   </div><br>
 
 
@@ -100,7 +111,7 @@ if(isset($_POST['edit']))
       </div>
   </section>
 <?php
-include 'footer.php';
+include 'footer1.php';
 ?>
 
 

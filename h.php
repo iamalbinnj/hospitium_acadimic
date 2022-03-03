@@ -69,7 +69,7 @@ Author URL: http://w3layouts.com
       <div class="header-2hny py-3">
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-dark stroke">
-            <h1><a class="navbar-brand mr-xl-5" href="index.html">
+            <h1><a class="navbar-brand mr-xl-5" href="index.php">
                 <span class="fa fa-heartbeat mr-1"></span>Hospital
               </a></h1>
             <!-- if logo is image enable this   

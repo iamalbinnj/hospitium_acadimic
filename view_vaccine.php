@@ -80,5 +80,5 @@ $s="SELECT * FROM vaccine where vl_id=$l_id";
   </div>
   <!--//w3l-services2-->
   <?php
-include 'footer.php';
+include 'footer1.php';
 ?>

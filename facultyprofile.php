@@ -54,5 +54,5 @@ $s="SELECT * FROM  faculty WHERE fl_id=$l_id";
     </div>
   </section>
   <?php
-include 'footer.php';
+include 'footer1.php';
 ?>
